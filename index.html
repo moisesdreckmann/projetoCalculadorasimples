@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" media="all">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>     
+        <section class="visorContainer">
+            <div class="visor">
+                <input type="text" name="visorInput" id="visorInput" value="" maxlength="10" disabled>
+            </div>
+        </section>
+        <section class="numbersContainer">
+            <div>
+                <div class="numbersRow">
+                    <button type="click" class="btn btnC" value="clear">c</button>
+                    <button type="click" class="btn btnOperator" value="ce">ce</button>
+                    <button type="click" class="btn btnOperator" value="/">/</button>  
+                </div>
+                <div class="numbersRow">
+                    <button type="click" class="btn" value="7">7</button>
+                    <button type="click" class="btn" value="8">8</button>
+                    <button type="click" class="btn" value="9">9</button>            
+                </div>
+                <div class="numbersRow">
+                    <button type="click" class="btn" value="4">4</button>
+                    <button type="click" class="btn" value="5">5</button>
+                    <button type="click" class="btn" value="6">6</button>
+                </div>
+                <div class="numbersRow">
+                    <button type="click" class="btn" value="1">1</button>
+                    <button type="click" class="btn" value="2">2</button>
+                    <button type="click" class="btn" value="3">3</button>     
+                </div>
+                <div class="numbersRow">
+                    <button type="click" class="btn btnLogo" value="">+/-</button>
+                    <button type="click" class="btn" value="0">0</button>
+                    <button type="click" class="btn" value=".">.</button>               
+                </div>
+            </div>
+            <div>
+                <div class="numbersColumn">
+                    <button type="click" class="btn btnOperator" value="x">x</button>    
+                    <button type="click" class="btn btnOperator" value="-">-</button>
+                    <button type="click" class="btn btnOperator" value="+">+</button>
+                    <button type="click" class="btn btnResult" value="=">=</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="calculadora.js"></script>
+</body>
+</html>

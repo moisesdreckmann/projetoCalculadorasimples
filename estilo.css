@@ -50,6 +50,7 @@ main {
 }
 
 #visorInput {
+    width: 180px;
     position: absolute;
     inset: 0;
     background-color: var(--cor4);
